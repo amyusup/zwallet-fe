@@ -1,0 +1,10 @@
+input[type="text"].form-search {
+    background: url("/assets/image/search.svg") no-repeat 5px 5px;
+    padding-left: 45px;
+    background-color: rgba(58, 61, 66, 0.1);
+    border-radius: 12px;
+  }
+  input[type="text"].form-search:focus {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+  }

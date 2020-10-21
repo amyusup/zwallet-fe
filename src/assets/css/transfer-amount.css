@@ -1,0 +1,23 @@
+input[type="number"].idr {
+    font-size: xx-large;
+    border-bottom: none!important;
+    color: rgba(99, 121, 244, 1) !important;
+    /* width: 800%; */
+  }
+  input[type="number"].idr:focus {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-bottom:none;
+  }
+  input[type="text"].form-amount-blank {
+    background: url("/assets/image/pencil.svg") no-repeat 5px 8px;
+    padding-left: 45px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+  }
+  input[type="text"].form-amount-blank:focus {
+    background: url("/assets/image/pencil-active.svg") no-repeat 5px 8px;
+    padding-left: 45px;
+  }
+

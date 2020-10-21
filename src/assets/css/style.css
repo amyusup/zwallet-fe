@@ -1,0 +1,289 @@
+html {
+  font-family: Nunito Sans;
+}
+.main-bg {
+  background-color: #fafcff;
+}
+
+html,
+body .fullscreen {
+  min-height: 100vh;
+  height: 100%;
+}
+html,
+body .fullscreen-with-footer {
+  min-height: 94vh;
+}
+
+.bg-wave {
+  background: url("/assets/image/wave.svg") repeat;
+}
+
+
+.bg-primary-zwallet {
+  background-color: rgba(99, 121, 244, 1) !important;
+  color: rgba(255, 255, 255, 1);
+}
+.bg-secondary-zwallet {
+  background-color: rgba(99, 121, 244, 0.15) !important;
+  color: rgba(99, 121, 244, 1);
+}
+.bg-grey-zwallet {
+  background-color: rgba(255, 255, 255, 0.2) !important;
+  color: rgba(255, 255, 255, 1);
+  border: 1px solid #ffffff;
+}
+.bg-dark-grey-zwallet {
+  background-color: rgba(218, 218, 218, 1) !important;
+  color: rgba(136, 136, 143, 1);
+  border: 1px solid #ffffff;
+}
+
+.primary-zwallet {
+  color: rgba(99, 121, 244, 1) !important;
+}
+.nunito-grey {
+  color: rgba(58, 61, 66, 0.8) !important;
+}
+.nunito-succes {
+  color: rgba(30, 193, 95, 1) !important;
+}
+.nunito-failed {
+  color: rgba(255, 91, 55, 1);
+}
+.nunito-transparent {
+  color: transparent;
+}
+
+a.primary-zwallet:hover {
+  text-decoration: none;
+}
+a.zwallet-link {
+  color: rgba(77, 75, 87, 1);
+}
+a.zwallet-link:hover {
+  text-decoration: none;
+}
+
+.img-1-1rem {
+  height: 1.1rem;
+}
+.bottom {
+  position: absolute;
+  bottom: 0;
+}
+.left {
+  position: absolute;
+  left: 0;
+}
+.radius-20 {
+  border-radius: 20px;
+}
+.radius-12 {
+  border-radius: 12px!important;
+}
+
+input[type="number"].flat-form,
+input[type="text"].flat-form,
+input[type="email"].flat-form,
+input[type="password"].flat-form,
+select.form-control.flat-form {
+  /* background: transparent; */
+  border: none;
+  border-bottom: 1px solid #000000;
+  box-shadow: none;
+  border-radius: 0;
+}
+
+input[type="number"].flat-form:focus,
+input[type="text"].flat-form:focus,
+input[type="email"].flat-form:focus,
+input[type="password"].flat-form:focus,
+select.form-control.flat-form:focus {
+  -webkit-box-shadow: none;
+  box-shadow: 5px;
+  border-bottom: 1.5px solid rgba(99, 121, 244, 1);
+}
+
+/* input[type="email"].form-login {
+  background: url(../image/email.svg) no-repeat 5px 1px;
+  padding-left: 45px;
+}
+
+input[type="password"].form-login {
+  background: url(../image/pass.svg) no-repeat 5px 1px;
+  padding-left: 45px;
+} */
+
+
+.digit-group {
+  border-radius: 10px;
+}
+button.bg-primary-zwallet,
+button.bg-secondary-zwallet {
+  box-shadow:  0px 6px 75px rgba(100, 87, 87, 0.05);;
+  border-radius: 12px;
+}
+
+.nav-zwallet {
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
+  border-radius: 0 0 25px 25px;
+  overflow: hidden;
+  background-color: white;
+}
+
+.foot-zwallet {
+  background-color: rgba(99, 121, 244, 1);
+  color: white;
+}
+
+.card-zwallet {
+  background: #ffffff;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
+  border-radius: 25px;
+  /* height: 79vh; */
+  font-size: 0.8em !important;
+}
+
+
+
+.active-side-card {
+  border-left: 5px solid;
+  /* padding-left: 0;
+  margin-left: 0; */
+  color: rgba(99, 121, 244, 1) !important;
+}
+.active-sub-side-card {
+  padding-left: 0;
+  margin-left: 0;
+  color: rgba(99, 121, 244, 1) !important;
+}
+.image-card {
+  height: 52px;
+  width: 52px;
+}
+
+.sub-card {
+  background: #ffffff;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
+  border-radius: 10px;
+}
+
+.zwallet-modal {
+  background-color: #ffffff;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
+  border-radius: 25px;
+  width: 70vw;
+  margin-left: auto;
+}
+@media (max-width: 767.98px) { 
+  .zwallet-modal {
+    background-color: #ffffff;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
+    border-radius: 25px;
+    width: 100vw;
+  }
+ }
+/*hide arrow input number */
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+input::-webkit-outer-spin-button:focus,
+input::-webkit-inner-spin-button:focus {
+  box-shadow: none;
+}
+
+input[type="number"]:focus {
+  box-shadow: none;
+}
+
+.avatar-zwallet{
+  height: 52px;
+  width: 52px;
+}
+
+.height-60{
+  height: 60vh;
+  overflow-y: scroll;
+}
+
+.height-80{
+  height: 80vh;
+}
+
+.height-60::-webkit-scrollbar,
+.height-80::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+.height-60::-webkit-scrollbar-track,
+.height-80::-webkit-scrollbar-track{
+  background: #f1f1f1;
+}
+
+/* Handle */
+.height-60::-webkit-scrollbar-thumb,
+.height-80::-webkit-scrollbar-thumb {
+  background: rgba(150, 150, 150, 0.473);
+  height: 10px;
+}
+
+
+/* ======================== */
+.avatar-zwallet{
+  height: 52px;
+  width: 52px;
+}
+.icon-small{
+  height: 12px;
+  width: 12px;
+}
+.icon-md{
+  height: 24px;
+  width: 24px;
+}
+.bg-grey-md-zwallet{
+  background-color: rgba(229, 232, 237, 1);
+  color: rgba(77, 75, 87, 1);
+}
+.radius-10 {
+  border-radius: 12px!important;
+}
+
+.absolute-right {
+  position: absolute;
+  right: 0;
+}
+
+/* input[type="text"].password,
+input[type="password"].password {
+  background: url(/assets/image/login/lock.svg) no-repeat 5px 1px;
+  padding-left: 45px;
+}
+input[type="text"].password:focus,
+input[type="password"].password:focus{
+  background: url(/assets/image/login/lock-active.svg) no-repeat 5px 1px;
+  padding-left: 45px;
+} */
+
+input[type="number"].form-phone {
+  background: url("/assets/image/form-phone.svg") no-repeat 5px 8px;
+  padding-left: 45px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+input[type="number"].form-phone:focus {
+  background: url("/assets/image/form-phone-active.svg") no-repeat 5px 8px;
+  width: 80%;
+}
